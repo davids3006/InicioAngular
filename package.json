@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+	"postbuild": "cp _redirects dist/curso_angular/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:curso_angular": "node dist/curso_angular/server/server.mjs"
